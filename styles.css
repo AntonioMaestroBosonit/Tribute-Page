@@ -1,0 +1,48 @@
+#main{
+    background-color: lightgrey;
+    border-radius: 5px;
+    text-align: center;
+    font-family: verdana;
+    padding-top: 2vh;
+  }
+  
+  #img-div{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #image{
+    display: block;
+    height: auto;
+    max-width: 100%;
+    border: 5px solid white;
+  }
+  
+  #image:hover{
+    border: 5px solid grey;
+  }
+  
+  #img-caption{
+    padding-top: 1vh;
+  }
+  
+  #info{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+  }
+  
+  #tribute-info{
+    text-align: justify;
+  }
+  
+  #tribute-link{
+    padding-bottom: 2vh;
+  }
+  
+  #tribute-link:hover{
+    color: red;
+  }
